@@ -1,0 +1,86 @@
+/*
+Theme Name: MyTestTheme
+Author: Evan 
+*/
+
+body{
+    font-family: sans-serif;
+    font-size:14px;
+    color: darkgrey;
+    padding: 0px;
+    margin:0px;
+
+}
+
+a:link,
+a:visited{
+    color: cornflowerblue;
+}
+
+
+.site-title-wrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+
+}
+
+.site-title{
+    font-size: 3.8em;
+}
+
+.site-subtitle{
+    font-size: 1.8em;
+}
+.site-header{
+    position: relative;
+}
+
+.post{
+    margin: 40px;
+    display: flex; /* or inline-flex */
+    flex-flow: wrap;
+    justify-content: center;
+    flex-basis: 1;
+    
+}
+
+.simple-post{
+    margin: 40px;
+    display: flex; /* or inline-flex */
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 1;
+}
+
+.post-content-wrapper{
+    margin: 20px;
+    max-width: 400px;
+    font-size: 1.6em;
+    line-height: 1.2em;
+}
+/* 
+.post-content-wrapper-center{
+    margin: 20px;
+    max-width: 400px;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    text-align: center;
+} */
+
+.post-img-wrapper{
+    margin: 20px;
+    max-width: 600px;
+    min-width: 600px;
+    flex-basis: 2;
+}
+
+img.wp-post-image{
+    width: 100%;
+    height: auto;
+    border-radius: 2.5%;
+
+}
+
